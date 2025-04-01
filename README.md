@@ -1,5 +1,4 @@
-# AN-32-Multi-Device-Power-Streaming
-
+AN-032: Multi-Device Power Streaming
 This application note demonstrates capturing power data from multiple devices simultaneously using the Quarch Power Studio (QPS) and the quarchpy Python package. The automated capture allows data from multiple instruments to be gathered at the same time, and with lower overhead than running QPS.
 
 Overview
@@ -71,4 +70,3 @@ python QisMultiDeviceStreamingExample.py
 Ensure you have edited the script to include your device IDs and selected channels.
 
 This README provides a detailed overview of the application note and instructions for running the script. If you have any questions or need further assistance, please refer to the documentation or contact support.
-
