@@ -164,7 +164,9 @@ def simple_multi_stream_example(modules):
         print(f"Started Recording on module: {myDeviceIDs[i]}\n")
         # Create file name using the device id
         file_name = f'{get_device_id(myDeviceIDs[i])}.csv'
-        modules[i].startStream(fileName=file_name, streamDuration=30)
+        # Start the stream
+        # Note: You can optionally add the parameter "streamDuration" for finer control.
+        modules[i].startStream(fileName=file_name)
 
     stream_running = True
 
