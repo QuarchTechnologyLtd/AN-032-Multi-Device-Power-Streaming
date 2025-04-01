@@ -1,7 +1,3 @@
-Here is the information in the correct format for the README:
-
----
-
 # AN-032: Multi-Device Power Streaming
 
 This application note demonstrates capturing power data from multiple devices simultaneously using the Quarch Instrument Server (QIS) and the `quarchpy` Python package. The automated capture allows data from multiple instruments to be gathered at the same time, and with lower overhead than running QPS.
